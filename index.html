@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SaiPrateeth P — Frontend Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="crt-overlay"></div>
+<div class="vignette"></div>
+<div class="flicker-bar" id="flickerBar"></div>
+
+<div class="cursor-ghost-c" id="ghostC"></div>
+<div class="cursor-ghost-m" id="ghostM"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<nav>
+  <div class="wrap">
+    <div class="logo">SP<span>_</span>DESIGN</div>
+    <div class="navlinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-tag">STATUS: OPEN TO OPPORTUNITIES</div>
+    <h1 class="name">
+      <span class="glitchwrap" id="heroName">
+        SaiPrateeth P
+        <span class="g-c" aria-hidden="true">SaiPrateeth P</span>
+        <span class="g-m" aria-hidden="true">SaiPrateeth P</span>
+      </span>
+    </h1>
+    <div class="role-line mono" id="roleLine"></div>
+    <p class="hero-desc">
+      Engineering student at JSSATEB, teaching myself the craft of frontend
+      design — where logic compiles into something people actually want
+      to look at.
+    </p>
+    <div class="hero-cta">
+      <a href="#work" class="btn primary"><span>View Work</span></a>
+      <a href="https://github.com/Prathuu24" target="_blank" rel="noopener" class="btn ghost"><span>GitHub ↗</span></a>
+    </div>
+  </div>
+  <div class="scroll-hint"><div class="line"></div> SCROLL</div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="eyebrow reveal">About</div>
+    <h2 class="sec-title reveal">Building the bridge between<br>code and design.</h2>
+    <div class="about-grid" style="margin-top:50px;">
+      <div class="about-text reveal">
+        <p>I'm <strong>SaiPrateeth P</strong>, currently pursuing engineering at
+        <strong>JSSATEB</strong>. Somewhere between debugging assignments and
+        pulling apart apps I admire, I realised the part I actually love is
+        the front end — the layer where a product finally becomes something
+        someone can feel.</p>
+        <p>So I'm working backwards from engineer to designer: rebuilding
+        interfaces I like, breaking them down, and asking why every pixel
+        and transition sits where it does. My aspiration is simple — become
+        a frontend designer who can ship interfaces that are both engineered
+        well and designed with intent.</p>
+        <p>Right now that means shipping small projects often, clone by
+        clone, site by site, and getting a little more deliberate with
+        every one.</p>
+      </div>
+      <div class="status-panel reveal">
+        <div class="head"><span>system.status</span><span>v1.0</span></div>
+        <div class="status-row"><span>role</span><span>Aspiring Frontend Designer</span></div>
+        <div class="status-row"><span>education</span><span>JSSATEB</span></div>
+        <div class="status-row"><span>focus</span><span>UI / Interaction</span></div>
+        <div class="status-row"><span>mode</span><span>learning : building</span></div>
+        <div class="status-row"><span>availability</span><span>open</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="eyebrow reveal">Skills</div>
+    <h2 class="sec-title reveal">Current stack.</h2>
+    <div class="skills-list" id="skillsList">
+      <div class="skill-row reveal" data-pct="85">
+        <span class="skill-name">HTML</span>
+        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        <span class="skill-pct">85%</span>
+      </div>
+      <div class="skill-row reveal" data-pct="80">
+        <span class="skill-name">CSS</span>
+        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        <span class="skill-pct">80%</span>
+      </div>
+      <div class="skill-row reveal" data-pct="70">
+        <span class="skill-name">JavaScript</span>
+        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        <span class="skill-pct">70%</span>
+      </div>
+      <div class="skill-row reveal" data-pct="65">
+        <span class="skill-name">React</span>
+        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        <span class="skill-pct">65%</span>
+      </div>
+    </div>
+    <p class="placeholder-note reveal"><strong>Note:</strong> skill percentages above are placeholders — tell me how you'd rate yourself on each and I'll update them.</p>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="eyebrow reveal">Selected Work</div>
+    <h2 class="sec-title reveal">Sites & clones I've shipped.</h2>
+    <div class="proj-grid">
+      <div class="proj-card reveal">
+        <div>
+          <div class="proj-num">01 / WEB APP CLONE</div>
+          <div class="proj-title">
+            Spotify UI Clone
+            <span class="g-c" aria-hidden="true">Spotify UI Clone</span>
+            <span class="g-m" aria-hidden="true">Spotify UI Clone</span>
+          </div>
+          <p class="proj-desc">Recreated Spotify's web player layout — sidebar navigation, now-playing bar, and hover states — focused on layout fidelity and micro-interactions.</p>
+        </div>
+        <div class="proj-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div>
+          <div class="proj-num">02 / WEB APP CLONE</div>
+          <div class="proj-title">
+            Netflix Landing Clone
+            <span class="g-c" aria-hidden="true">Netflix Landing Clone</span>
+            <span class="g-m" aria-hidden="true">Netflix Landing Clone</span>
+          </div>
+          <p class="proj-desc">Rebuilt Netflix's marketing landing page end to end — responsive breakpoints, hero treatment, and FAQ accordion.</p>
+        </div>
+        <div class="proj-tags"><span class="tag">HTML</span><span class="tag">CSS</span></div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div>
+          <div class="proj-num">03 / WEBSITE</div>
+          <div class="proj-title">
+            Portfolio v1
+            <span class="g-c" aria-hidden="true">Portfolio v1</span>
+            <span class="g-m" aria-hidden="true">Portfolio v1</span>
+          </div>
+          <p class="proj-desc">An earlier personal site — a typography and grid-layout exercise before this version.</p>
+        </div>
+        <div class="proj-tags"><span class="tag">HTML</span><span class="tag">CSS</span></div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div>
+          <div class="proj-num">04 / WEB APP CLONE</div>
+          <div class="proj-title">
+            Amazon Product Page
+            <span class="g-c" aria-hidden="true">Amazon Product Page</span>
+            <span class="g-m" aria-hidden="true">Amazon Product Page</span>
+          </div>
+          <p class="proj-desc">Rebuilt a product detail page — image gallery, price block, and add-to-cart interactions — as a React component exercise.</p>
+        </div>
+        <div class="proj-tags"><span class="tag">React</span><span class="tag">CSS</span></div>
+      </div>
+    </div>
+    <p class="placeholder-note reveal"><strong>Note:</strong> these 4 projects are placeholders based on "a few websites and app clones." Send me your real project names, descriptions, and live/GitHub links and I'll swap them in.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="eyebrow reveal">Contact</div>
+    <div class="contact-wrap">
+      <div class="contact-title reveal">Let's build<br>something.</div>
+      <div class="contact-links reveal">
+        <a class="contact-link" href="https://www.linkedin.com/in/saiprateeth-p-6721a32bb" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="contact-link" href="https://github.com/Prathuu24" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="width:100%;display:flex;justify-content:space-between;flex-wrap:wrap;">
+    <span>© 2026 SaiPrateeth P</span>
+    <span>Built with HTML / CSS / JS</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
