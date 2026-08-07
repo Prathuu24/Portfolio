@@ -1,24 +1,15 @@
 # SaiPrateeth P — Portfolio
 
-Multi-page portfolio site. Glitch/terminal-inspired UI with a custom
-chromatic-aberration cursor, scramble-text animations, glitch page
-transitions, and scroll-triggered CRT-style reveals.
-
-## Pages
-- **index.html** — Home: hero, skills ticker, about/work teasers
-- **about.html** — Full bio, journey timeline, "currently focused on" panel
-- **projects.html** — Full project grid with filter tabs (All / Sites / Clones)
-- **contact.html** — Contact form (mailto handoff) + direct links with copy-to-clipboard
+Personal portfolio site. Glitch/terminal-inspired UI with a custom
+chromatic-aberration cursor, scramble-text animations, and scroll-triggered
+CRT-style reveals.
 
 ## Structure
 ```
 .
-├── index.html
-├── about.html
-├── projects.html
-├── contact.html
-├── style.css    # all styling + animations (shared)
-├── script.js    # cursor, glitch, transitions, filters, form logic (shared)
+├── index.html   # markup
+├── style.css    # all styling + animations
+├── script.js    # cursor, glitch, scroll reveal, skill bar logic
 └── README.md
 ```
 
@@ -39,7 +30,7 @@ Then visit `http://localhost:8000`.
 4. Save — your site will be live at `https://<username>.github.io/<repo-name>/`.
 
 ## To do
-- [ ] Swap placeholder projects in `projects.html` (and the teaser in `index.html`) for real ones
-- [ ] Update skill percentages if you re-add the skills section
-- [ ] Replace `youremail@example.com` in `contact.html` and `script.js` with your real email
+- [ ] Swap placeholder projects in `index.html` (`#work` section) for real ones
+- [ ] Update skill percentages in `index.html` (`#skills` section)
 - [ ] Add a resume link / download button
+- [ ] Add an email or contact form
