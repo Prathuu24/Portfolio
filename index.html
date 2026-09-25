@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SaiPrateeth P — Frontend Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page-loader" id="pageLoader">
+  <div class="page-loader-inner"><div class="spin"></div> Loading</div>
+</div>
+
+<nav>
+  <div class="wrap">
+    <div class="logo"><span class="dot"></span>SaiPrateeth P</div>
+    <div class="navlinks" id="navLinks">
+      <a href="index.html" data-page="index.html" data-transition>Home</a>
+      <a href="about.html" data-page="about.html" data-transition>About</a>
+      <a href="projects.html" data-page="projects.html" data-transition>Work</a>
+      <a href="contact.html" data-page="contact.html" data-transition class="nav-cta">Contact →</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"></button>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-idcard-pin">
+    <div class="idcard-combo">
+      <div class="idcard-rig">
+        <div class="idcard-clip"></div>
+        <div class="idcard-lanyard"></div>
+        <div class="idcard-body">
+          <div class="scan-beam"></div>
+          <div class="idcard-header">
+            <div class="chip"></div>
+            <div class="idcard-avatar">
+              <img src="assets/profile.jpg" alt="SaiPrateeth P"
+                   onerror="this.style.display='none'; this.parentElement.textContent='SP';">
+            </div>
+          </div>
+          <div class="idcard-info">
+            <div class="idcard-name">SaiPrateeth P</div>
+            <div class="idcard-role">Aspiring Frontend Designer</div>
+            <div class="idcard-divider"></div>
+            <div class="idcard-barcode"></div>
+            <div class="idcard-id">ID · JSSATE-CSE-2026</div>
+            <div class="idcard-status">OPEN TO WORK</div>
+            <div class="idcard-links">
+              <a href="https://github.com/Prathuu24" target="_blank" rel="noopener">GITHUB</a>
+              <a href="https://www.linkedin.com/in/saiprateeth-p-6721a32bb" target="_blank" rel="noopener">LINKEDIN</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scanner-unit">
+        <div class="scanner-body">
+          <div class="scanner-light ready"></div>
+          <div class="scanner-screen">READY</div>
+          <div class="scanner-slot"></div>
+          <button class="scanner-btn">SCAN ID</button>
+        </div>
+
+        <div class="scan-result">
+          <div class="scan-result-head">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+            Scan Complete
+          </div>
+          <div class="scan-result-row">
+            <span>Status</span>
+            <span class="scan-status-chip"><span class="pulse"></span>Open to Work</span>
+          </div>
+          <div class="scan-result-row">
+            <span>GitHub</span>
+            <a href="https://github.com/Prathuu24" target="_blank" rel="noopener">Prathuu24 ↗</a>
+          </div>
+          <div class="scan-result-row">
+            <span>LinkedIn</span>
+            <a href="https://www.linkedin.com/in/saiprateethp" target="_blank" rel="noopener">saiprateeth-p ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="badge-pill"><span class="pulse"></span> Available for opportunities</span>
+        <h1 class="headline">Frontend design,<br>built with <em>intent.</em></h1>
+        <p class="hero-desc">
+          I'm SaiPrateeth P, an engineering student teaching myself the craft
+          of frontend design — turning code into interfaces people actually
+          enjoy using.
+        </p>
+        <div class="hero-cta">
+          <a href="projects.html" data-transition class="btn primary">View Work →</a>
+          <a href="https://github.com/Prathuu24" target="_blank" rel="noopener" class="btn outline">GitHub</a>
+        </div>
+        <div class="hero-social-proof">
+          <div class="avatar-stack">
+            <div class="dot-avatar">HT</div>
+            <div class="dot-avatar">CS</div>
+            <div class="dot-avatar">SQ</div>
+          </div>
+          <p><strong>7 technologies</strong> — HTML, CSS, JS, React, SQL, Python, C++</p>
+        </div>
+      </div>
+
+
+                <div class="float-pill" style="bottom: 2%;left:20%;">
+          <span class="spark"></span> JSSATE · Bangalore
+        </div>
+
+      </div> <!-- .hero-grid -->
+    </div> <!-- .wrap -->
+</header>
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>REACT</span>
+    <span>SQL</span><span>PYTHON</span><span>C++</span>
+    <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>REACT</span>
+    <span>SQL</span><span>PYTHON</span><span>C++</span>
+  </div>
+</div>
+
+<section id="about-teaser">
+  <div class="wrap">
+    <div class="eyebrow reveal">About</div>
+    <h2 class="sec-title reveal">Engineer by degree,<br>designer by obsession.</h2>
+    <div class="about-grid" style="margin-top:50px;">
+      <div class="about-text reveal">
+        <p>I'm <strong>SaiPrateeth P</strong>, a first-year Computer Science
+        Engineering student at <strong>JSS Academy of Technical Education
+        (JSSATE), Bangalore</strong>, working backwards from engineer to
+        frontend designer — rebuilding interfaces I admire and asking why
+        every pixel and transition sits where it does.</p>
+        <a href="about.html" data-transition class="btn outline" style="margin-top:6px;">Read Full Story →</a>
+      </div>
+      <div class="status-panel reveal">
+        <div class="head"><span>Snapshot</span><span>v2.0</span></div>
+        <div class="status-row"><span>Role</span><span>Aspiring Frontend Designer</span></div>
+        <div class="status-row"><span>Education</span><span>JSSATE, Bangalore</span></div>
+        <div class="status-row"><span>Focus</span><span>UI / Interaction</span></div>
+        <div class="status-row"><span>Availability</span><span>Open</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work-teaser">
+  <div class="wrap">
+    <div class="eyebrow reveal">Selected Work</div>
+    <h2 class="sec-title reveal">A few things I've shipped.</h2>
+    <div class="proj-grid">
+      <div class="proj-card reveal" data-cat="clone">
+        <div>
+          <div class="proj-num">01 · WEB APP CLONE</div>
+          <div class="proj-title">Spotify UI Clone</div>
+          <p class="proj-desc">Recreated Spotify's web player layout — sidebar navigation, now-playing bar, and hover states.</p>
+        </div>
+        <div class="proj-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+      </div>
+      <div class="proj-card reveal" data-cat="clone">
+        <div>
+          <div class="proj-num">02 · WEB APP CLONE</div>
+          <div class="proj-title">Netflix Landing Clone</div>
+          <p class="proj-desc">Rebuilt Netflix's marketing landing page — responsive breakpoints, hero treatment, FAQ accordion.</p>
+        </div>
+        <div class="proj-tags"><span class="tag">HTML</span><span class="tag">CSS</span></div>
+      </div>
+    </div>
+    <a href="projects.html" data-transition class="btn primary" style="display:inline-flex;margin-top:36px;">View All Work →</a>
+  </div>
+</section>
+
+<section id="cta">
+  <div class="wrap" style="text-align:center;">
+    <div class="eyebrow reveal" style="justify-content:center;">Contact</div>
+    <h2 class="sec-title reveal">Let's build something.</h2>
+    <a href="contact.html" data-transition class="btn primary reveal" style="margin-top:24px;">Get In Touch →</a>
+  </div>
+</section>
+
+<div class="texture-band">
+  <div class="chars">
+    <span>&lt;div&gt;</span><span>#frontend</span><span>::hover</span><span>{ }</span>
+    <span>&lt;/section&gt;</span><span>const ui =</span><span>#0e0f12</span><span>flex;</span>
+    <span>@media</span><span>SELECT *</span><span>grid-gap</span><span>=&gt;</span>
+    <span>class App</span><span>#ff5a1f</span><span>import</span><span>return</span>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>SaiPrateeth P</h4>
+        <p>Engineering student at JSSATE, Bangalore, building toward a career in frontend design.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html" data-transition>Home</a>
+        <a href="about.html" data-transition>About</a>
+        <a href="projects.html" data-transition>Work</a>
+        <a href="contact.html" data-transition>Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="https://github.com/Prathuu24" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/saiprateeth-p-6721a32bb" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SaiPrateeth P</span>
+      <span>Built with HTML / CSS / JS</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — SaiPrateeth P</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page-loader" id="pageLoader">
+  <div class="page-loader-inner"><div class="spin"></div> Loading</div>
+</div>
+
+<nav>
+  <div class="wrap">
+    <div class="logo"><span class="dot"></span>SaiPrateeth P</div>
+    <div class="navlinks" id="navLinks">
+      <a href="index.html" data-page="index.html" data-transition>Home</a>
+      <a href="about.html" data-page="about.html" data-transition>About</a>
+      <a href="projects.html" data-page="projects.html" data-transition>Work</a>
+      <a href="contact.html" data-page="contact.html" data-transition class="nav-cta">Contact →</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"></button>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow reveal">About</div>
+    <h1 class="reveal">Engineer by degree,<br>designer by obsession.</h1>
+    <p class="reveal">The long version of how a first-year CSE student at JSSATE, Bangalore ended up chasing pixels instead of just circuits.</p>
+  </div>
+</section>
+
+<section id="story" style="border-top:none;padding-top:0;">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <div class="avatar-frame">
+          <img src="assets/profile.jpg" alt="SaiPrateeth P"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="avatar-fallback">SP</div>
+        </div>
+        <p>I'm <strong>SaiPrateeth P</strong>, a first-year Computer Science
+        Engineering student at <strong>JSS Academy of Technical Education
+        (JSSATE), Bangalore</strong>. Somewhere between coursework and
+        pulling apart apps I admire, I realised the part I actually love
+        is the front end — the layer where a product finally becomes
+        something someone can feel.</p>
+        <p>So I'm working backwards from engineer to designer: rebuilding
+        interfaces I like, breaking them down, and asking why every pixel
+        and transition sits where it does. I'm currently strong in
+        <strong>HTML, CSS, SQL, Python, and C++</strong>, solidly
+        comfortable with <strong>JavaScript</strong>, and just getting
+        started with <strong>React</strong> — my aspiration is to become
+        a frontend designer who ships interfaces that are both engineered
+        well and designed with intent.</p>
+        <p>I'm based in Bangalore, India, learning by building — one
+        project at a time — and open to internships and frontend design
+        opportunities.</p>
+        <a href="assets/resume.pdf" download class="btn primary resume" style="margin-top:10px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v13m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
+          Download Resume
+        </a>
+      </div>
+      <div class="status-panel reveal">
+        <div class="head"><span>System Status</span><span>v2.0</span></div>
+        <div class="status-row"><span>Role</span><span>Aspiring Frontend Designer</span></div>
+        <div class="status-row"><span>Education</span><span>JSSATE, Bangalore</span></div>
+        <div class="status-row"><span>Focus</span><span>UI / Interaction</span></div>
+        <div class="status-row"><span>Mode</span><span>Learning : Building</span></div>
+        <div class="status-row"><span>Availability</span><span>Open</span></div>
+      </div>
+    </div>
+    <p class="placeholder-note reveal"><strong>Note:</strong> add your real photo as <code>assets/profile.jpg</code> and your resume as <code>assets/resume.pdf</code> — until then, the avatar falls back to "SP" and the download button will 404.</p>
+  </div>
+</section>
+
+
+<section id="skills">
+  <div class="wrap">
+    <div class="eyebrow reveal">Skills</div>
+    <h2 class="sec-title reveal">Current stack.</h2>
+    <div class="skills-list" id="skillsList">
+      <div class="skill-row reveal" data-pct="90"><span class="skill-name">HTML</span><div class="skill-bar-track"><div class="skill-bar-fill"></div></div><span class="skill-pct">90%</span></div>
+      <div class="skill-row reveal" data-pct="88"><span class="skill-name">CSS</span><div class="skill-bar-track"><div class="skill-bar-fill"></div></div><span class="skill-pct">88%</span></div>
+      <div class="skill-row reveal" data-pct="85"><span class="skill-name">SQL</span><div class="skill-bar-track"><div class="skill-bar-fill"></div></div><span class="skill-pct">85%</span></div>
+      <div class="skill-row reveal" data-pct="85"><span class="skill-name">Python</span><div class="skill-bar-track"><div class="skill-bar-fill"></div></div><span class="skill-pct">85%</span></div>
+      <div class="skill-row reveal" data-pct="80"><span class="skill-name">C++</span><div class="skill-bar-track"><div class="skill-bar-fill"></div></div><span class="skill-pct">80%</span></div>
+      <div class="skill-row reveal" data-pct="65"><span class="skill-name">JavaScript</span><div class="skill-bar-track"><div class="skill-bar-fill"></div></div><span class="skill-pct">65%</span></div>
+      <div class="skill-row reveal" data-pct="30"><span class="skill-name">React</span><div class="skill-bar-track"><div class="skill-bar-fill"></div></div><span class="skill-pct">30%</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="journey">
+  <div class="wrap">
+    <div class="eyebrow reveal">Journey</div>
+    <h2 class="sec-title reveal">How I got here.</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Now</div>
+        <div class="timeline-title">Studying Engineering @ JSSATE, Bangalore</div>
+        <div class="timeline-desc">Balancing coursework with self-directed frontend practice — building real UI, not just following tutorials.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Along the way</div>
+        <div class="timeline-title">Learned HTML, CSS, JavaScript, SQL, Python & C++</div>
+        <div class="timeline-desc">Built a strong engineering foundation, then leaned into the frontend stack by building — not just reading docs.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Practice</div>
+        <div class="timeline-title">Cloning real products to learn design</div>
+        <div class="timeline-desc">Rebuilding interfaces from Spotify and Netflix to understand layout, spacing, and interaction decisions from the inside.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Next</div>
+        <div class="timeline-title">Becoming a Frontend Designer</div>
+        <div class="timeline-desc">Turning self-taught skills into shipped, original design work — this portfolio being step one.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="now">
+  <div class="wrap">
+    <div class="eyebrow reveal">Currently</div>
+    <h2 class="sec-title reveal">What I'm focused on.</h2>
+    <div class="now-panel reveal">
+      <div class="head"><span>Now</span><span>Updated 2026</span></div>
+      <div class="now-list">
+        <div class="now-item">Sharpening React fundamentals through small components and clones.</div>
+        <div class="now-item">Studying interaction design — motion, feedback, and micro-states.</div>
+        <div class="now-item">Building this portfolio out into a full multi-page site.</div>
+        <div class="now-item">Open to internships, collabs, or frontend design opportunities.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>SaiPrateeth P</h4>
+        <p>Engineering student at JSSATE, Bangalore, building toward a career in frontend design.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html" data-transition>Home</a>
+        <a href="about.html" data-transition>About</a>
+        <a href="projects.html" data-transition>Work</a>
+        <a href="contact.html" data-transition>Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="https://github.com/Prathuu24" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/saiprateeth-p-6721a32bb" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SaiPrateeth P</span>
+      <span>Built with HTML / CSS / JS</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
